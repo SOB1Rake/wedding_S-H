@@ -44,7 +44,8 @@ body{font-family:'Montserrat',sans-serif;background:#0a0a0a;color:#e8dcc8;overfl
 }
 .cover.hide{opacity:0;transform:scale(.97);pointer-events:none}
 .cover-top{font-size:10px;letter-spacing:5px;color:rgba(200,170,100,.55);margin-bottom:32px;line-height:1.8}
-.cover-names{font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:300;color:#f0e6cc;line-height:1.05;letter-spacing:1px;margin-bottom:20px}
+.cover-names{  font-family: 'Parisienne', handwriting;
+font-size:52px;font-weight:300;color:#f0e6cc;line-height:1.05;letter-spacing:1px;margin-bottom:20px}
 .cover-names .amp{color:#c8aa64;font-style:italic}
 .cover-date-row{display:flex;align-items:center;gap:12px;justify-content:center;margin-bottom:24px}
 .cover-date-row .ln{flex:1;max-width:48px;height:.5px;background:#c8aa64;opacity:.5}
