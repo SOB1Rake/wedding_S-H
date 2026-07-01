@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Parisienne&display=swap);
 
 /* ═══════════════════════════════════
    CSS VARIABLES — DARK / LIGHT
@@ -255,7 +256,9 @@ calendar-section {
 } */
 .hero::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:1px;height:40px;background:linear-gradient(to bottom,transparent,#c8aa64)}
 .ornament{font-size:18px;color:#c8aa64;letter-spacing:8px;margin-bottom:20px;display:block}
-.names{font-family:'Cormorant Garamond',serif;font-size:46px;font-weight:300;color:#f0e6cc;line-height:1.1;letter-spacing:2px}
+.names{
+  font-family: 'Parisienne', handwriting;
+  font-size:46px;font-weight:300;color:#f0e6cc;line-height:1.1;letter-spacing:2px}
 .names .amp2{color:#c8aa64;font-style:italic;font-size:36px}
 .divider-line{display:flex;align-items:center;gap:12px;margin:24px auto;max-width:280px}
 .divider-line::before,.divider-line::after{content:'';flex:1;height:.5px;background:linear-gradient(to right,transparent,#c8aa64,transparent)}
