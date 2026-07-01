@@ -103,7 +103,7 @@ function setLang(lang) {
 
 var audio;
 var playing=false;
-function toggleMusic(){var icon=document.getElementById("musicIcon");var wave=document.getElementById("mwave");var status=document.getElementById("music-status");if(!audio)audio=document.getElementById("bgMusic");if(playing){audio.pause();icon.className='ti ti-player-play';wave.classList.remove('playing');status.textContent="BOSING — O'YNATING";playing=false;}else{audio.play();icon.className='ti ti-player-pause';wave.classList.add('playing');status.textContent='IJRO ETILMOQDA...';playing=true;}}
+function toggleMusic(){var icon=document.getElementById("musicIcon");var wave=document.getElementById("mwave");var status=document.getElementById("music-status");if(!audio)audio=document.getElementById("bgMusic");if(playing){audio.pause();icon.className='ti ti-player-play';wave.classList.remove('playing');status.textContent="";playing=false;}else{audio.play();icon.className='ti ti-player-pause';wave.classList.add('playing');status.textContent='';playing=true;}}
 /* ── UNLOCK SLIDER ── */
 var wrap, thumb, fill, track, lockIcon;
 var dragging = false, startX = 0, currentX = 0;
@@ -168,7 +168,7 @@ function unlock() {
     /* inject map embeds now (lazy) */
     injectMaps();
     /* auto-start music */
-    setTimeout(function(){audio=document.getElementById('bgMusic');audio.play();document.getElementById('musicIcon').className='ti ti-player-pause';document.getElementById('mwave').classList.add('playing');document.getElementById('music-status').textContent='IJRO ETILMOQDA...';playing=true;},800);
+    setTimeout(function(){audio=document.getElementById('bgMusic');audio.play();document.getElementById('musicIcon').className='ti ti-player-pause';document.getElementById('mwave').classList.add('playing');document.getElementById('music-status').textContent='';playing=true;},800);
   }, 600);
 }
 
